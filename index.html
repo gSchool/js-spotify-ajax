@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Spotify Artist Playlist</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <img src="spotify-logo.jpg">
+
+      <h1>Spotify Artist Search</h1>
+
+      <br>
+
+      <form>
+        <div class="form-group">
+          <input type="text" id="search-term" class="form-control" placeholder="Enter artist name...">
+        </div>
+        <div class="form-group">
+          <input type="submit" id="search-submit" class="btn btn-default" value="search">
+        </div>
+      </form>
+
+      <p>Album results for: <strong><span class="query"></span></strong></p>
+
+      <hr> <!-- The <hr> tag defines a thematic break in an HTML page (e.g. a shift of topic) -->
+
+      <div class="results-area">
+        <ul class="results group">
+        </ul>
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+  </body>
+</html>
