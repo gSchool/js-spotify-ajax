@@ -1,6 +1,5 @@
-# JS Spotify AJAX
+## JS Spotify AJAX
 
-## Objective
 * Use the Spotify API to display albums by an artist, supplied through a input form.
 
 
