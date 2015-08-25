@@ -20,7 +20,7 @@ $("form").on('submit', function (event){
 });
 ```
 
-1. Next we need to make an AJAX request. The ajax() method is used to perform an AJAX (asynchronous HTTP) request. Reference the Spotify developers documentation
+2. Next we need to make an AJAX request. The ajax() method is used to perform an AJAX (asynchronous HTTP) request. Reference the Spotify developers documentation
 ```javascript
 function getAlbums(searchTerm) {
   var request = $.ajax({
@@ -43,7 +43,7 @@ function getAlbums(searchTerm) {
 };
 ```
 
-1. Now we need to iterate through the returned data(JSON) and append the data to the dom.
+3. Now we need to iterate through the returned data(JSON) and append the data to the dom.
 ```javascript
 request.done(function(response){
   var albums = response.albums.items;
